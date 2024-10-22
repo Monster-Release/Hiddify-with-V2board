@@ -1,4 +1,4 @@
-display_name: Hiddify
+display_name: BigCup
 package_name: hiddify
 maintainer:
   name: hiddify
@@ -11,12 +11,12 @@ essential: false
 icon: ./assets/images/source/ic_launcher_border.png
 
 postinstall_scripts:
-  - echo "Installed Hiddify"
+  - echo "Installed BigCup"
 postuninstall_scripts:
   - echo "Surprised Why?"
 
 keywords:
-  - Hiddify
+  - BigCup
   - Proxy
   - VPN
   - V2ray
@@ -25,7 +25,7 @@ keywords:
   - Psiphon
   - OpenVPN
 
-generic_name: Hiddify
+generic_name: BigCup
 
 categories:
   - Network

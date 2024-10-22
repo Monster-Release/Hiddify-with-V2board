@@ -1544,10 +1544,10 @@
 
 * Update msix. 
 
-* Merge pull request #577 from Aryangh1379/Hiddify-develop. 
+* Merge pull request #577 from Aryangh1379/BigCup-develop. 
 
-* Merge pull request #572 from Aryangh1379/Hiddify-develop. 
-  _Hiddify develop_
+* Merge pull request #572 from Aryangh1379/BigCup-develop. 
+  _BigCup develop_
 
 * Forgot to remove -x from !#/bin/bash :) 
 
@@ -1580,7 +1580,7 @@
 
 * Adding a README in Portuguese. 
 
-* Merge pull request #556 from Aryangh1379/Hiddify-develop. 
+* Merge pull request #556 from Aryangh1379/BigCup-develop. 
   _AppRun file error fixed. AppImage now is usable_
 
 * AppRun file error fixed. AppImage now is usable. 
@@ -1756,7 +1756,7 @@
 
 #### Changes
 
-* Change name to Hiddify. 
+* Change name to BigCup. 
 
 #### Fix
 
@@ -1937,7 +1937,7 @@
 
 * Change make flags. 
 
-* Change the name of tunnel service to HiddifyService. 
+* Change the name of tunnel service to BigCupService. 
 
 * Make makefile cross platform. 
 
@@ -2009,7 +2009,7 @@
 
 * Refactor makefile. 
 
-* Update Hiddify Packages. 
+* Update BigCup Packages. 
 
 * Update README_ru.md. 
 
@@ -3152,9 +3152,9 @@
 
 * Initialize Packet Tunnel + Config. 
 
-* Update Tutorial_For_HiddifyNext_Linux.desktop. 
+* Update Tutorial_For_BigCupNext_Linux.desktop. 
 
-* Update Tutorial_For_HiddifyNext.url. 
+* Update Tutorial_For_BigCupNext.url. 
 
 * Update آموزش هیدیفای‌نکست فارسی.url. 
 
@@ -4163,7 +4163,7 @@
 
 * Add aab file. 
 
-* Change windows-portable name to HiddifyNext-portable. 
+* Change windows-portable name to BigCupNext-portable. 
 
 * Add debug mode. 
 

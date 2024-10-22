@@ -19,15 +19,15 @@ env:
   NDK_VERSION: r26d
   UPLOAD_ARTIFACT: "${{ inputs.upload-artifact }}"
   TAG_NAME: "${{ inputs.tag-name }}"
-  TARGET_NAME_AppImage: "Hiddify-Linux-x64"
-  TARGET_NAME_deb: "Hiddify-Debian-x64"
-  TARGET_NAME_rpm: "Hiddify-rpm-x64"
-  TARGET_NAME_apk: "Hiddify-Android"
-  TARGET_NAME_aab: "Hiddify-Android"
-  #TARGET_NAME_exe: "Hiddify-Windows-x64"
-  TARGET_NAME_dmg: "Hiddify-MacOS"
-  TARGET_NAME_pkg: "Hiddify-MacOS-Installer"
-  TARGET_NAME_ipa: "Hiddify-iOS"
+  TARGET_NAME_AppImage: "BigCup-Linux-x64"
+  TARGET_NAME_deb: "BigCup-Debian-x64"
+  TARGET_NAME_rpm: "BigCup-rpm-x64"
+  TARGET_NAME_apk: "BigCup-Android"
+  TARGET_NAME_aab: "BigCup-Android"
+  #TARGET_NAME_exe: "BigCup-Windows-x64"
+  TARGET_NAME_dmg: "BigCup-MacOS"
+  TARGET_NAME_pkg: "BigCup-MacOS-Installer"
+  TARGET_NAME_ipa: "BigCup-iOS"
   
 
 jobs:
@@ -193,7 +193,7 @@ jobs:
           folder: 'dist'
           timestamp-server: 'http://timestamp.digicert.com'
           recursive: true
-          description: 'Hiddify'
+          description: 'BigCup'
 
       - name: Copy to out Windows
         if: matrix.platform == 'windows'
@@ -422,7 +422,7 @@ jobs:
 
       - uses: Apple-Actions/upload-testflight-build@v1
         with:
-          app-path: 'out/Hiddify-iOS.ipa' 
+          app-path: 'out/BigCup-iOS.ipa' 
           issuer-id: ${{ secrets.APPSTORE_ISSUER_ID }}
           api-key-id: ${{ secrets.APPSTORE_API_KEY_ID }}
           api-private-key: ${{ secrets.APPSTORE_API_PRIVATE_KEY }}

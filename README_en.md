@@ -1,7 +1,7 @@
 
-# What is V2Hiddify ([查看此文档的中文版本](./README.md))
+# What is V2BigCup ([查看此文档的中文版本](./README.md))
 
-V2Hiddify is a derivative project developed based on [Hiddify-Next](https://github.com/hiddify/hiddify-next). The purpose of this project is to develop a cross-platform client that can integrate directly with V2board (Xboard). Users can log in with their accounts from the VPN service provider, automatically subscribe, and purchase packages.
+V2BigCup is a derivative project developed based on [BigCup-Next](https://github.com/hiddify/hiddify-next). The purpose of this project is to develop a cross-platform client that can integrate directly with V2board (Xboard). Users can log in with their accounts from the VPN service provider, automatically subscribe, and purchase packages.
 
 ## Project Progress Update
 
@@ -9,7 +9,7 @@ The project is currently on hold for two days as the payment feature is the only
 
 ## Join TG Group Chat
 
-Feel free to join the V2Hiddify TG group for discussions and exchanges: [V2Hiddify TG Group](https://t.me/V2Hiidify).
+Feel free to join the V2BigCup TG group for discussions and exchanges: [V2BigCup TG Group](https://t.me/V2Hiidify).
 
 ## Features
 
@@ -34,8 +34,8 @@ Feel free to join the V2Hiddify TG group for discussions and exchanges: [V2Hiddi
 First, clone the repository locally:
 
 ```bash
-git clone https://github.com/GalenBlabla/Hiddify-with-V2board.git
-cd Hiddify-with-V2board
+git clone https://github.com/GalenBlabla/BigCup-with-V2board.git
+cd BigCup-with-V2board
 ```
 
 ### 2. Prepare dependencies
@@ -90,7 +90,7 @@ Perform the following replacements in the project directory:
 
 2. **Replace panel name**:
 
-   Inside the app, find the language package `assets/translations/strings_zh-CN.i18n.json` and modify the third line `"appTitle": "V2Hiddify"`. This will change the program's internal name and the welcome page name.  
+   Inside the app, find the language package `assets/translations/strings_zh-CN.i18n.json` and modify the third line `"appTitle": "V2BigCup"`. This will change the program's internal name and the welcome page name.  
    To change the app's name outside the app (e.g., on the home screen), modify the platform-specific files, such as in the Android example:  
     #### Modify `AndroidManifest.xml`
 
@@ -101,7 +101,7 @@ Perform the following replacements in the project directory:
         android:name=".Application"
         android:banner="@mipmap/ic_banner"
         android:icon="@mipmap/ic_launcher"
-        android:label="V2Hiddify"
+        android:label="V2BigCup"
     ```
 
 ### 5. Build the application
@@ -151,9 +151,9 @@ Package the application for the respective platform as needed. Before packaging,
 
 ---
 
-With these steps, you can customize and package the V2Hiddify client for your own panel, making it easier for users to use VPN services.
+With these steps, you can customize and package the V2BigCup client for your own panel, making it easier for users to use VPN services.
 
-## V2Hiddify Example Images
+## V2BigCup Example Images
 
 ### Chinese Interface
 <p align="center">
@@ -175,7 +175,7 @@ With these steps, you can customize and package the V2Hiddify client for your ow
 
 ## Build Platform Requirement Overview
 
-V2Hiddify currently has an issue: clients need to be packaged separately for different domains. To simplify this process, I plan to develop an automatic packaging platform. Users will input the target panel domain (e.g., `https://tomato.galen.life`) and the panel name (e.g., "V2Hiddify"), and the platform will automatically generate configuration files and complete the packaging.
+V2BigCup currently has an issue: clients need to be packaged separately for different domains. To simplify this process, I plan to develop an automatic packaging platform. Users will input the target panel domain (e.g., `https://tomato.galen.life`) and the panel name (e.g., "V2BigCup"), and the platform will automatically generate configuration files and complete the packaging.
 
 ### Implementation Idea
 

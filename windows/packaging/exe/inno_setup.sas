@@ -69,7 +69,7 @@ var
   ResultCode: Integer;
 begin
   Exec('taskkill', '/F /IM hiddify.exe', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
-  Exec('net', 'stop "HiddifyTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
-  Exec('sc.exe', 'delete "HiddifyTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
+  Exec('net', 'stop "BigCupTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
+  Exec('sc.exe', 'delete "BigCupTunnelService"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode)
   Result := True;
 end;

@@ -1,11 +1,11 @@
-# 什么是 V2Hiddify（[View this document in English](./README_en.md)）
+# 什么是 V2BigCup（[View this document in English](./README_en.md)）
 
-V2Hiddify 是基于 [Hiddify-Next](https://github.com/hiddify/hiddify-next) 开发的一个衍生项目。该项目的目的是开发一个跨平台客户端，可以直接与 V2board（Xboard）集成。用户可以使用 VPN 服务提供商的相应账户登录，自动订阅并购买套餐。  
+V2BigCup 是基于 [BigCup-Next](https://github.com/hiddify/hiddify-next) 开发的一个衍生项目。该项目的目的是开发一个跨平台客户端，可以直接与 V2board（Xboard）集成。用户可以使用 VPN 服务提供商的相应账户登录，自动订阅并购买套餐。  
 ## 项目进度
 - 截止24年10月16日,所有的功能开发完毕,无致命bug.算是v1.0版本诞生.
 ## 加入TG群聊
 
-欢迎加入V2Hiddify TG 群聊来交流和讨论：[V2Hiddify TG 群聊](https://t.me/V2Hiidify)。
+欢迎加入V2BigCup TG 群聊来交流和讨论：[V2BigCup TG 群聊](https://t.me/V2Hiidify)。
 
 ## 功能
 - [x] **oss支持**：自动域名切换
@@ -29,8 +29,8 @@ V2Hiddify 是基于 [Hiddify-Next](https://github.com/hiddify/hiddify-next) 开�
 首先，将项目仓库克隆到本地：
 
 ```bash
-git clone https://github.com/GalenBlabla/Hiddify-with-V2board.git
-cd Hiddify-with-V2board
+git clone https://github.com/GalenBlabla/BigCup-with-V2board.git
+cd BigCup-with-V2board
 ```
 
 ### 2. 依赖准备
@@ -86,7 +86,7 @@ flutter run
 
 2. **替换机场名字**：
 
-   应用内，找到语言包```assets/translations/strings_zh-CN.i18n.json```（中文举例），修改第三行```"appTitle": "V2Hiddify"```。V2Hiddify就是程序应用内的名字以及欢迎界面的名字。  
+   应用内，找到语言包```assets/translations/strings_zh-CN.i18n.json```（中文举例），修改第三行```"appTitle": "V2BigCup"```。V2BigCup就是程序应用内的名字以及欢迎界面的名字。  
    应用外，也就是应用本身的名字，需要在对应平台文件中修改，安卓示例：  
     #### 修改 `AndroidManifest.xml`
 
@@ -97,14 +97,14 @@ flutter run
         android:name=".Application"
         android:banner="@mipmap/ic_banner"
         android:icon="@mipmap/ic_launcher"
-        android:label="V2Hiddify"
+        android:label="V2BigCup"
     ```
    你仍然可以使用全局替换的方式更改你看到的目标文字，虽然这样可能会带来未知的错误。
 
-   ~~搜索项目中所有 `V2Hiddify` 的地方，并替换为你的机场名称。例如，如果你的机场名字是 `SuperVPN`，可以用以下命令替换：~~
+   ~~搜索项目中所有 `V2BigCup` 的地方，并替换为你的机场名称。例如，如果你的机场名字是 `SuperVPN`，可以用以下命令替换：~~
 
 
-   ~~grep -rl 'V2Hiddify' lib/ | xargs sed -i 's/V2Hiddify/SuperVPN/g'~~
+   ~~grep -rl 'V2BigCup' lib/ | xargs sed -i 's/V2BigCup/SuperVPN/g'~~
 
 ### 5. 打包应用
 默认无任何代理.
@@ -160,9 +160,9 @@ distributionUrl=https://mirrors.cloud.tencent.com/gradle/gradle-7.6.1-bin.zip
 
 ---
 
-通过以上步骤，你可以定制并打包适合自己面板的 V2Hiddify 客户端，方便用户使用 VPN 服务。
+通过以上步骤，你可以定制并打包适合自己面板的 V2BigCup 客户端，方便用户使用 VPN 服务。
 
-## V2Hiddify 示例图片
+## V2BigCup 示例图片
 
 ### 中文界面
 <p align="center">
@@ -198,7 +198,7 @@ distributionUrl=https://mirrors.cloud.tencent.com/gradle/gradle-7.6.1-bin.zip
 ### 注意事项
 
 - 请确保你的代码风格与项目一致。 
-- 对Hiddify源码做尽可能少的改动。
+- 对BigCup源码做尽可能少的改动。
 - 请确保所有单元测试通过，并尽量增加新的测试以覆盖你的更改。
 - 在提交 PR 之前，请先同步主仓库的最新代码。
 
